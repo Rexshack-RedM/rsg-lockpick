@@ -6,7 +6,7 @@ lua54 'yes'
 name 'rsg-lockpick'
 author 'RexShack Gaming'
 description 'Lockpicking minigame for RSG Core'
-version '3.0.0'
+version '3.0.1'
 
 shared_scripts {
     '@rsg-core/shared/locale.lua',

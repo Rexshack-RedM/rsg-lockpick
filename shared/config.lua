@@ -93,9 +93,9 @@ Config.Server = {
 -- Lockpick item: required, worn down by use, and a worn pick is harder to use.
 Config.Item = {
     Enabled = true,
-    Name    = 'lockpick',     -- must exist in RSGCore.Shared.Items
-    Require = true,           -- refuse to start an attempt without the item
-    QualityDamageScale = 1.0, -- pick damage x (1 + (100 - quality) / 100 * scale); 0 disables
+    Name    = 'tool_lockpick', -- must exist in RSGCore.Shared.Items
+    Require = true,            -- refuse to start an attempt without the item
+    QualityDamageScale = 1.0,  -- pick damage x (1 + (100 - quality) / 100 * scale); 0 disables
     Wear = {
         Success          = 5,    -- quality lost after a successful attempt
         Fail             = 25,   -- quality lost after a failed attempt
